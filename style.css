@@ -1,6 +1,8 @@
 /*common start*/
 body{
-	width: 100%;
+	margin: 0;
+	padding: 0;
+	
 }
 /*common end*/
 /*header start*/
@@ -47,15 +49,15 @@ header{
 .menu ul li:last-child a{
 	margin-right: 0;
 }
-a:hover{
-	background-color: #EEE7E5;
+.menu ul li a:hover{
+	color: #008AFF;
 }
 /*header end*/
 /*banner start*/
 
 .banner{
 	margin: 0;
-	padding: 50px;
+	padding: 50px 0;
 }
 .container2{
 	width: 55%;
@@ -76,7 +78,7 @@ a:hover{
 	font-size: 40px;
 	font-weight: 700px;
 	margin: 10px 0;
-	color: #5BB4FF;
+	color: #008AFF;
 }
 .b_content P{
 	font-size: 14px;
@@ -98,8 +100,6 @@ a:hover{
 /*banner end*/
 /*success start*/
 .success{
-	margin: 0;
-	padding: 50px;
 }
 .s_content{
 	overflow: hidden;
@@ -143,6 +143,7 @@ a:hover{
 /*feature start*/
 
 .feature{
+	padding: 50px 0;
 	
 }
 .f_content{
@@ -155,7 +156,7 @@ a:hover{
 	color: #162C5B;
 	padding: 10px 25px 45px 25px;
 	float: left;
-	margin-right: 20px;
+	margin-right: 22px;
 }
 .pink{
 	background-color: #FDEBED;
@@ -185,19 +186,19 @@ a:hover{
 /*feature end*/
 /*footer start*/
 footer{
-
-	padding: 75px 0 0 0;
+	padding: 30px 0;
+	background-color: #008AFF;
 }
 .footer{
-	height: 100px;
 	font-family: sans-serif;
 	color: white;
-	background-color: #008AFF;
 	text-align: center;
 }
 .footer p{
-	padding: 40px ;
+	margin: 0;
 }
-.footer p strong{
+.footer p a{
 	letter-spacing: 4px;
+	text-decoration: none;
+	color: white;
 }
